@@ -3,6 +3,54 @@ body { background-color: cornsilk; }
 a {color: rgb(153, 0, 153);}
 
 
+div.name {border: none;}
+
+div.contact {
+              border: 10px solid azure;
+              background: azure;
+              border-radius: 5px;
+              padding-top: 30px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 40px;}
+div.website {
+              border: 10px solid azure;
+              background: azure;
+              border-radius: 5px;
+              padding-top: 0px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 40px;}
+div.education {
+              border: 10px solid azure;
+              border-radius: 5px;
+              padding-top: 30px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 40px;}
+div.skills {
+              border: 10px solid azure;
+              border-radius: 5px;
+              padding-top: 30px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 40px;}
+div.experience {
+              border: 10px solid azure;
+              border-radius: 5px;
+              padding-top: 30px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 40px;}
+div.leadership-honors {
+              border: 10px solid azure;
+              border-radius: 5px;
+              padding-top: 30px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 40px;}
+
+/* EDUCATION */
 /* unvisited link */
 div.education a:link {color: rgb(153, 0, 153);}
 /* visited link */
@@ -11,6 +59,16 @@ div.education a:visited {color: rgb(38, 51, 0);}
 div.education a:hover { color: rgb(172, 230, 0);}
 /* selected link */
 div.education a:active {color: rgb(122, 102, 255);}
+
+/* WEBSITE */
+/* unvisited link */
+div.website a:link {color: #241f47;}
+/* visited link */
+div.website a:visited {color: rgb(38, 51, 0);}
+/* mouse over link */
+div.website a:hover { color: rgb(172, 230, 0);}
+/* selected link */
+div.website a:active {color: rgb(122, 102, 255);}
 
 
 h1, h2 { color: #241f47;
@@ -43,9 +101,10 @@ ul {list-style-type: square;
 #skills p { font-size: 15px;}
 
 div.name {line-height: 20px;}
-div.contact {line-height: 5px;}
-div.education {line-height: 10px;}
+div.contact {line-height: 15px;}
+div.website {line-height: 5px;}
+div.education {line-height: 15px;}
 div.experience.leadership-honors {line-height: 17px;}
-div.skills {line-height: 8px;}
+div.skills {line-height: 15px;}
 
 
