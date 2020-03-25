@@ -1,0 +1,51 @@
+
+body { background-color: cornsilk; }
+a {color: rgb(153, 0, 153);}
+
+
+/* unvisited link */
+div.education a:link {color: rgb(153, 0, 153);}
+/* visited link */
+div.education a:visited {color: rgb(38, 51, 0);}
+/* mouse over link */
+div.education a:hover { color: rgb(172, 230, 0);}
+/* selected link */
+div.education a:active {color: rgb(122, 102, 255);}
+
+
+h1, h2 { color: #241f47;
+	font-family: 'Bebas Neue', cursive; }
+h1 {font-size: 50px;}
+h2 {font-size: 30px;
+	text-decoration: underline;}
+
+h4 { color: #40367c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;}
+
+p {font-family: 'BenchNine', sans-serif;
+	font-size: 18px;}
+
+li {font-family: 'BenchNine', sans-serif;
+	font-size: 17px;}
+
+ul {list-style-type: square;
+	list-style-position: outside;
+	word-spacing: 5px;}
+
+
+
+#leadership-honors p { color: #4d6600; }
+
+#contact h4 { font-size: 15px;}
+
+#skills h4 {font-size: 13px;}
+#skills p { font-size: 15px;}
+
+div.name {line-height: 20px;}
+div.contact {line-height: 5px;}
+div.education {line-height: 10px;}
+div.experience.leadership-honors {line-height: 17px;}
+div.skills {line-height: 8px;}
+
+
