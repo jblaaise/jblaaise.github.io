@@ -11,16 +11,90 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=BenchNine&display=swap" rel="stylesheet">
 			<title>Jacqueline Blaises Resume</title>
-		</head>
+		
+      <style>
+          #main {
+            display: grid;
+            grid-gap: 30px;
+            grid-template-rows: 400px 350px 70px auto auto auto;
+            grid-template-columns: 300px 100px auto 100px;
+            grid-template-areas: 
+            "name name name name"
+            "contact education education education"
+            "website education education education"
+            "skills experience experience experience"
+            "leadership-honors leadership-honors leadership-honors leadership-honors";} 
 
-		<body>
+            #name {
+              text-align: center;
+              grid-row-start: 1;
+              grid-row-end: 2;
+              grid-column-start: 1;
+              grid-column-end: 4;
+            }   
 
+            #contact {
+              grid-row-start: 2;
+              grid-row-end: 3;
+              grid-column-start: 1;
+              grid-column-end: 2;
+            }  
+
+            #education {
+              grid-row-start: 2;
+              grid-row-end: 4;
+              grid-column-start: 2;
+              grid-column-end: 4;
+            }  
+
+            #website {
+              grid-row-start: 3;
+              grid-row-end: 4;
+              grid-column-start: 1;
+              grid-column-end: 2;
+            } 
+
+            #skills {
+              grid-row-start: 4;
+              grid-row-end: 5;
+              grid-column-start: 1;
+              grid-column-end: 2;
+            }  
+
+            #experience {
+              grid-row-start: 4;
+              grid-row-end: 5;
+              grid-column-start: 2;
+              grid-column-end: 4;
+            }  
+
+            #leadership-honors {
+              align-content: center;
+              grid-row-start: 5;
+              grid-row-end: 6;
+              grid-column-start: 1;
+              grid-column-end: 4;
+            }  
+
+            div {
+              border: 10px solid cornsilk;
+              padding-top: 30px;
+              padding-right: 40px;
+              padding-bottom: 30px;
+              padding-left: 150px;}
+
+      </style>
+    </head>
+<body>
+
+<div id="main"> 
+  <div id="name" class="name">
+  <!--- Name Section --->    
       <img src="resumephoto307.jpg" alt="photo of Jacqueline with lights hanging">
-      
-      <div id="name" class="name">
       <h1>Jacqueline Blaise</h1>
     </div>
 
+  <!--- jumps section 
       <div id="jumps" class="jumps">
         <ul> 
             <li><a href="#education">Education</a></li>
@@ -28,17 +102,25 @@
             <li><a href="#leadership-honors">Leadership-Honors</a></li>
             <li><a href="#skills">Skills</a></li>
         </ul>
-      </div>
+      </div> --->
 
+
+  <!--- Contact Section ---> 
 		<div id="contact" class="contact">
+      <h2>Contact</h2>
       <h4>13940 Marblestone Drive, Clifton, VA 20124</h4>
-			<h4><em>Personal Cell: </em>(703) 229-2270</h4>
+			<h4><em>Personal Cell: </em><br>(703) 229-2270</h4>
 		  <h4><em>Personal Email:</em> jblaise.00bu@gmail.com</h4>
       <h4><em>Student Email: </em>blaisejb@dukes.jmu.edu</h4>
     </div>
-        	
-			
+  
+  <!--- Website Section --->
+  <div id="website" class="website">
+    <h2><a href="https://jblaise862952946.wordpress.com/">Personal Website</a></h2>
+  </div>
 
+			
+  <!--- Education Section --->
 		<div id="education" class="education"><h2>Education</h2>
 			<h4>James Madison University (JMU), Harrisonburg, VA</h4>
         	<p>Expected Graduation: May 2021</p>
@@ -51,7 +133,23 @@
 			<p>Semester Abroad: May-July 2019</p>
 			<p>Completed James Madison University&apos;s COB 300 program consisting of 5, visited 11 countries.</p>
     </div>
-			
+
+		
+<!--- Skills Section --->
+      <div id="skills" class="skills"><h2>SKILLS</h2>
+          <h4><em>Adobe Creative Cloub</em></h4>
+            <p>Proficient in Illustrator, InDesign, and Photoshop platforms</p>
+
+          <h4><em>Microsoft Office</em></h4>
+            <p>Knowledgeable and skilled in all applications in this software</p>
+          <h4><em>Social Media</em></h4>
+            <p>Experienced and trained in multiple applications and application design</p>
+          <h4><em>Spanish</em></h4>
+            <p>Intermediate skills in comprehension and speech of the Spanish Language</p>
+      </div>
+
+
+  <!--- Experience Section --->	
 		<div id="experience" class="experience"><h2>Experience</h2>
 			<h4><em>Student Hearing Officer</em><br> Office of Fraternity and Sorority Life, Harrisonburg, VA (September-December 2019)</h4>
 			<ul>
@@ -71,7 +169,7 @@
     </div>
 
 
-    
+  <!--- Leadership and Honors Section --->
 		<div id="leadership-honors" class="leadership-honors"><h2>Leadership and Honors</h2>
      		<h4><strong><em>Alpha Sigma Alpha</em> <br> Beta Epsilon Chapter, Harrisonburg, VA </strong></h4>
 
@@ -132,18 +230,7 @@
       </div>
       
 
-    
-      <div id="skills" class="skills"><h2>SKILLS</h2>
-        	<h4><em>Adobe Creative Cloub</em></h4>
-        		<p>Proficient in Illustrator, InDesign, and Photoshop platforms</p>
-
-        	<h4><em>Microsoft Office</em></h4>
-        		<p>Knowledgeable and skilled in all applications in this software</p>
-        	<h4><em>Social Media</em></h4>
-        		<p>Experienced and trained in multiple applications and application design</p>
-        	<h4><em>Spanish</em></h4>
-        		<p>Intermediate skills in comprehension and speech of the Spanish Language</p>
-      </div>
+    </div>
 
 		</body>
 	</html>
