@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+/* fonts */
+font-family: 'Special Elite', cursive;
+font-family: 'Martel', serif;
+
+
+body { background-color: #754c24; }
+
+p {color: white;
+	font-family: 'Special Elite', cursive;
+    margin-top: 0;
+    margin-bottom: 0;}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    font-family: 'Special Elite', cursive;}
+
+h3 {font-family: 'Special Elite', cursive;}
+
+a { color: white;
+    text-decoration: none;
+    background-color: transparent;
+	font-family: 'Martel', serif;}
+a:hover { color: #603913;
+    	text-decoration: underline;}
+
+#top {background-color: #754c24;}
+
+#header { background-color: #c69c6d;}
+#header h1 {color: white;
+			margin-top: 30px;
+			margin-bottom: 0;}
+#header nav {margin-top: 0px;
+			margin-bottom:10px;}
+
+.card {background-color: #44627e;
+		margin-top: 30px;
+		margin-bottom: 30px;}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #44627e;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;}
+
+#sustainability h1, h3 {color: white;}
+#sustainability a {color: white;}
+#sustainability a:hover {color: #c69c6d;}
+
+#vintage {background-color: #a36209;}
+#vintage h1 {color: white;
+				margin-top: 20px
+				margin-bottom: 20px;}
+.btn-primary {
+    color: #fff;
+    background-color: #c69c6d;
+    border-color: #c69c6d;
+}
+
+.btn-seconday {
+    color: #fff;
+    background-color: #44627e;
+    border-color: #44627e;}
+
+#newdiy {background-color: #c69c6d;}
+#newdiy p {font-size: 30px;}
+
+ #footer {background-color: #c69c6d;}
+ #footer h1 {color: brown;
+ 			margin-top: 40px;
+ 			margin-bottom: 20px;}
+
